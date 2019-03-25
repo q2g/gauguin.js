@@ -17,6 +17,24 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "foo": [
+        "dist/foo",
+        "dist/foo"
+      ],
+      "foo/*": [
+        "dist/foo/*",
+        "dist/foo/*"
+      ],
+      "gauguin": [
+        "dist/gauguin",
+        "dist/gauguin"
+      ],
+      "gauguin/*": [
+        "dist/gauguin/*",
+        "dist/gauguin/*"
+      ]
+    }
   }
 }
