@@ -1,10 +1,10 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "lib": {
+    "ui-lib": {
       "description": "create a new library in gauguin",
-      "factory": "./gauguin/lib/index#gauguinLib",
-      "schema": "./gauguin/lib/schema.json"
+      "factory": "./gauguin/ui-lib/index#gauguinLib",
+      "schema": "./gauguin/ui-lib/schema.json"
     }
   }
 }

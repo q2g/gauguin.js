@@ -3,7 +3,7 @@
     "version": 1,
     "projects": {
         "gauguin": {
-            "root": ".",
+            "root": "/",
             "sourceRoot": "lib",
             "projectType": "library",
             "prefix": "gauguin",
